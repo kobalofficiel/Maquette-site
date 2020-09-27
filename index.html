@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Maquette de site</title>
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/"> -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Maquette</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nos services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    
+    <main role="main">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./photos/banniere_apple.png" alt="photo slide 1" width="100" height="100">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Réparation</h1>
+                <p>Je propose des services de réparation sur plusieurs type d'équipement</p>
+                <p><a class="btn btn-lg btn-primary" href="https://media.giphy.com/media/26rlkYCMTlm9bEehQE/giphy.gif" role="button">Never</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./photos/banniere_microsoft.jpg" alt="photo slide 2" width="100%" height="500%">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Installation</h1>
+                <p>Il y'a également un service d'installation pour les novices de certain système d'exploitation ou de montage informatique</p>
+                <p><a class="btn btn-lg btn-primary" href="https://media.giphy.com/media/l378rrt5tAawaCQ9i/giphy.gif" role="button">Give</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./photos/banniere_android.jpg" alt="photo slide 3" width="100%" height="100%">
+              <div class="carousel-caption">
+                <h1>Configuration</h1>
+                <p>Possibilité de configurer votre matériel et de l'optimiser </p>
+                <p><a class="btn btn-lg btn-primary" href="https://media.giphy.com/media/yMBRzjqgS0penXtdQT/giphy.gif" role="button">Up</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./photos/apple.gif" alt="photo slide 3" width="140" height="160">
+            <h2>Service Apple</h2>
+            <p>Apple est une entreprise multinationale américaine qui crée et commercialise des produits électroniques grand public, des ordinateurs personnels et des logiciels informatiques. Parmi les produits les plus connus de l'entreprise se trouvent les ordinateurs Macintosh, l'iPod, l'iPhone et l'iPad, la montre Apple Watch, le lecteur multimédia iTunes, la suite bureautique iWork, la suite multimédia iLife ou des logiciels à destination des professionnels tels que Final Cut Pro et Logic Pro.</p>
+            <p><a class="btn btn-secondary" href="https://www.apple.com/fr/" role="button">Voir plus &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./photos/microsoft.gif" alt="photo slide 3" width="150" height="120">
+            <h2>Service Microsoft</h2>
+            <p>Microsoft à une activité principale qui consiste à développer et vendre des systèmes d’exploitation, des logiciels et des produits matériels dérivés. Les meilleures ventes historiques sont portées par les systèmes d’exploitation MS-DOS puis Windows, et la suite bureautique Office, qui alimentent à présent une politique de diversification.</p>
+            <p><a class="btn btn-secondary" href="https://www.microsoft.com/fr-fr" role="button">Voir un peu plus &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./photos/android.gif" alt="photo slide 3" width="150" height="150">
+            <h2>Service Android</h2>
+            <p> Android est un système d'exploitation mobile, fondé sur le noyau Linux et développé par Google. Lancé en juin 2007 à la suite du rachat par Google en 2005 de la startup du même nom, le système avait d'abord été conçu pour les smartphones et tablettes tactiles, puis s'est diversifié dans les objets connectés et ordinateurs comme les télévisions (Android TV), les voitures (Android Auto), les Chromebook (Chrome OS qui utilise les applications Android) et les smartwatch (Wear OS).</p>
+            <p><a class="btn btn-secondary" href="https://www.android.com/intl/fr_fr/" role="button">Voir toujours plus &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Crash Apple ! <span class="text-muted">On sait pas réparer... </span></h2>
+              <p class="lead">Je n'ai personnellement que très peu de compétence sur Macintosh donc les réparations sont limitées...</p>
+            </div>
+            <div class="col-md-5">
+              <img src="./photos/crash_apple.gif" alt="photo slide 3" width="500" height="500">
+            </div>
+          </div>
+
+        <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Crash Microsoft ! <span class="text-muted">On est maître Shaolin de réparation </span></h2>
+              <p class="lead">Microsoft et plus précisément Windows est mon domaine de travail du quotidien, je le connais donc très bien et me repère facilement ! Tout type de réparation est envisageable et sur tout type de Windows même Server !</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="./photos/crash_microsoft.gif" alt="photo slide 3" width="400" height="400">
+            </div>
+          </div>
+
+        <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Crash Android ! <span class="text-muted">Compliqué cette histoire...</span></h2>
+              <p class="lead">Plus des 3/4 du temps ce sont des problème de batterie ou ralentissement système donc, j'ai les capacité pour un nettoyage software et hardware. Un changement de matériel comme la batterie. </p>
+            </div>
+            <div class="col-md-5">
+              <img src="./photos/crash_android.gif" alt="photo slide 3" width="450" height="300">
+            </div>
+          </div>
+
+        <hr class="featurette-divider">
+        
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Contact ! <span class="text-muted"> </span></h2>
+            <p class="lead">Envoyé vos demande à : jaidesgrosproblemeavecmonpchelp@gmail.com // Il est également possible d'appeler au 07 69 62 54 36</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249254.10067236325!2d69.52144507714502!3d-49.34589981979658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb36cabf2d157c333%3A0x61519604daf263f0!2sMont%20Ross!5e0!3m2!1sfr!2sfr!4v1601223112119!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+
+      <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+    
+      <!-- FOOTER -->
+      <footer class="container">
+        <p>Ici il y'a possibilité d'y mettre différent raccourcie type contact ou frais de douane ou même temps d'expédition d'une pizza !</p>
+        <p>appeler le : 07 65 82 87 48</p>
+        <p>fou fou ou pas fou fou</p>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2020-2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</html>
